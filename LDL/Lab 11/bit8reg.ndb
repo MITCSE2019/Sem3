@@ -1,0 +1,62 @@
+NDB006
+The number of symbol table entries is: 9
+The length of the symbol table is: 165
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|dflipflop:stage0|
+A	|dflipflop:stage1|
+T	|dflipflop:stage2|
+g	|dflipflop:stage3|
+z	|dflipflop:stage4|
+"/	|dflipflop:stage5|
+"B	|dflipflop:stage6|
+"U	|dflipflop:stage7|
+
+The number of name info structs is : 42
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	L8ef	!	4	0	8	+	,	-	.	/	0	1	2	clk	w
+#	"?%_n	!	2	0	1	+	in0	!	in0	v
+$	"?%_n	!	2	0	1	,	in1	!	in1	u
+%	"?%_n	!	2	0	1	-	in2	!	in2	t
+&	"?%_n	!	2	0	1	.	in3	!	in3	s
+'	"?%_n	!	2	0	1	/	in4	!	in4	r
+(	"?%_n	!	2	0	1	0	in5	!	in5	q
+)	"?%_n	!	2	0	1	1	in6	!	in6	p
+*	"?%_n	!	2	0	1	2	in7	!	in7	o
++	"<R?c	!	3	0	op0	!	op0	"!
+,	"<R?c	!	3	0	op1	!	op1	~
+-	"<R?c	!	3	0	op2	!	op2	}
+.	"<R?c	!	3	0	op3	!	op3	|
+/	"<R?c	!	3	0	op4	!	op4	{
+0	"<R?c	!	3	0	op5	!	op5	z
+1	"<R?c	!	3	0	op6	!	op6	y
+2	"<R?c	!	3	0	op7	!	op7	x
+3	IeEZ	!	4	0	reset	""
+4	IGdW	.	:5	"V
+5	IGdW	.	:6	"W
+6	IeE1	.	18	0	:7	"X
+7	IGdW	A	:5	"b
+8	IGdW	A	:6	"c
+9	IeE1	A	18	0	:7	"d
+:	IGdW	T	:5	"m
+;	IGdW	T	:6	"n
+<	IeE1	T	18	0	:7	"o
+=	IGdW	g	:5	"x
+>	IGdW	g	:6	"y
+?	IeE1	g	18	0	:7	"z
+@	IGdW	z	:5	#%
+A	IGdW	z	:6	#&
+B	IeE1	z	18	0	:7	#'
+C	IGdW	"/	:5	#0
+D	IGdW	"/	:6	#1
+E	IeE1	"/	18	0	:7	#2
+F	IGdW	"B	:5	#;
+G	IGdW	"B	:6	#<
+H	IeE1	"B	18	0	:7	#=
+I	IGdW	"U	:5	#F
+J	IGdW	"U	:6	#G
+K	IeE1	"U	18	0	:7	#H
